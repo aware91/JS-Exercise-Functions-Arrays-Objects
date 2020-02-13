@@ -16,6 +16,7 @@ function addNumbers(num1, num2) {
   return num1 + num2;
 }
 
+
 // ⭐️ Example Challenge end ⭐️
 
 
@@ -39,8 +40,14 @@ function addNumbers(num1, num2) {
  *   email: "leia@leia.com",
  * }
 */
-function makePersonObject(/* code here */) {
-  /* code here */
+function makePersonObject(id, name, email) {
+  const info = {
+    id: id,
+    name: name, 
+    email: email,
+  }
+  console.log(info);
+  return info;
 }
 
 /**
